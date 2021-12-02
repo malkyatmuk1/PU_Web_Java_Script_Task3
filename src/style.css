@@ -38,3 +38,92 @@
     border: 2px solid rgb(204, 204, 204); 
     margin: 40px auto;
 }
+
+
+/* CSS Йоана */
+
+
+body {
+    color: #2c3347;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 100px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 20px;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .gold {
+    font-weight: 900;
+  
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+
+
+  #message{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    color: black;
+    background: rgb(200,174,238);
+    background: linear-gradient(0deg, rgba(87,89,92,1) 16%, rgba(200,174,238,1) 100%);
+  }
+  /* Nikolay CSS цял 1 ред */
+  h2 { text-align: center;}
